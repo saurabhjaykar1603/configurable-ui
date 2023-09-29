@@ -7,6 +7,11 @@
     "secondaryColor": "#C25451  ",
     "accentColor": "#DFE0DF"
   },
+
+  "servicesCardDirection" : "row",
+
+
+
   "services": [
     {
       "title": "Catering",

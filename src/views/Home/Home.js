@@ -24,19 +24,26 @@ function Home() {
           </p>
 
           <h2 style={{ color: Config.theme.secondaryColor }}>Services</h2>
-          {Config.services.map((seviceData, i) => {
-            const { title, description, price } = seviceData;
+          <div
+            style={{
+              display: "flex",
+              flexDirection: Config.servicesCardDirection,
+            }}
+          >
+            {Config.services.map((seviceData, i) => {
+              const { title, description, price } = seviceData;
 
-            return (
-              <div className="card m-3" key={i}>
-                <div className="card-body">
-                  <h3 className="card-title">{title}</h3>
-                  <p className="card-text">{description}</p>
-                  <p className="card-text">Price: {price}</p>
+              return (
+                <div className="card m-3 shadow" key={i}>
+                  <div className="card-body">
+                    <h3 className="card-title " style={{ color: Config.theme.secondaryColor }}>{title}</h3>
+                    <p className="card-text" >{description}</p>
+                    <p className="card-text">Price: <span style={{ color: Config.theme.secondaryColor }}>{price}</span> </p>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </div>
     </>
