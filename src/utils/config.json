@@ -2,6 +2,11 @@
   "title": "This is Home Page",
   "description": "   This is Home Page Description",
 
+  "theme": {
+    "primaryColor": "#504538",
+    "secondaryColor": "#C25451  ",
+    "accentColor": "#DFE0DF"
+  },
   "services": [
     {
       "title": "Service 1",

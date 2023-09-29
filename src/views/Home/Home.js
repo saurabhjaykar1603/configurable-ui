@@ -4,11 +4,22 @@ import Config from "./../../utils/config.json";
 function Home() {
   return (
     <>
-      <div className="container">
-        <h1 className="text-center mt-3"> {Config.title}</h1>
-        <p className="text-center mt-4 fs-5 fw-bold">{Config.description}</p>
+      <div className="container  p-5" style={{ backgroundColor: Config.theme.accentColor }}>
+        <h1
+          className="text-center mt-3 "
+          style={{ color: Config.theme.primaryColor }}
+        >
+          {" "}
+          {Config.title}
+        </h1>
+        <p
+          className="text-center mt-4 fs-5 fw-bold"
+          style={{ color: Config.theme.secondaryColor }}
+        >
+          {Config.description}
+        </p>
 
-        <h2>Services</h2>
+        <h2 style={{ color: Config.theme.secondaryColor }}>Services</h2>
         {Config.services.map((seviceData, i) => {
           const { title, description, price } = seviceData;
 
