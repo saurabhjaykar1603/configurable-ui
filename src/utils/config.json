@@ -1,6 +1,6 @@
 {
-  "title": "This is Home Page",
-  "description": "   This is Home Page Description",
+  "title": "Mansi's kitchen",
+  "description": "    Discover Mansi's Kitchen – a place where passion and flavors unite. Located in [location], we offer a diverse menu featuring authentic Indian cuisine, international delights, and customized creations      ",
 
   "theme": {
     "primaryColor": "#504538",
@@ -9,21 +9,21 @@
   },
   "services": [
     {
-      "title": "Service 1",
-      "description": " Service 1 Description",
-      "price": "300"
+      "title": "Catering",
+      "description": "Our catering service is all about delivering delicious food and a seamless dining experience to your doorstep. From corporate events to special celebrations, we handle the food, so you can focus on the festivities. Let us cater your next gathering and savor the convenience of great food at your convenience.",
+      "price": "3000"
+    },
+    
+    {
+      "title": "Delivery",
+      "description": "Our delivery service is your ticket to enjoying your favorite meals without leaving the comfort of your home. Whether it's a quick lunch, a family dinner, or a late-night craving, we'll deliver mouthwatering dishes right to your doorstep. Experience the ease and satisfaction of dining in, courtesy of our delivery team.",
+      "price": "1000"
     },
 
     {
-      "title": "Service 1",
-      "description": " Service 1 Description",
-      "price": "200"
-    },
-
-    {
-      "title": "Service 3",
-      "description": " Service 3 Description",
-      "price": "100"
+      "title": "Take Out",
+      "description": " When you're on the move or simply want to enjoy your favorite dishes at home, our takeout service has you covered. Our kitchen prepares your chosen meals with care, so you can pick them up and savor the flavors wherever you like. Enjoy the convenience of restaurant-quality food, wherever you are, with our takeout option.",
+      "price": "free"
     }
   ]
 }
